@@ -2,3 +2,51 @@
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
+/* header styles */
+header{
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+
+.nav-title{
+    font-size: 2.7rem;
+    color: #131313;
+    font-weight: 700;
+
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav > ul{
+    display: flex;
+}
+nav  li{
+    list-style: none;
+    margin-right: 50px;
+    font-weight: 500px;
+    font-size: 1rem;
+}
+nav li a{
+    text-decoration: none;
+    color: #424242;
+}
+/* banner section */
+.banner-content{
+    max-width: 800px; 
+    text-align: center;
+    margin: 0 auto;
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight: 700px;
+    color: #131313;
+}
+.banner-des{
+    color: #727272;
+}
+.btn-primary{
+    
+}
